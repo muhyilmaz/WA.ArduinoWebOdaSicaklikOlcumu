@@ -1,0 +1,8 @@
+...Proje tanýtýmý: Arduino ile ölçülen sýcaklýðý web sayfasýnda gösterme.
+
+...Açýklama: 
+
+	Projenin amacý server odasýnda ki sýcaklýðý web de kullanýcý tarafýna aktarmaktýr. 
+Birçok defa odanýn soðutucularýnýn durmasý ile odadaki sýcaklýk yükselmiþ ve sunucular çalýþmayý durdurmuþtur.
+Bu amaçla arduino ile sýcaklýk sensörü vasýtasýyla sýcaklýk ölçmek ve belirlenen IP adresine XML formatýnda yazýlarak sonuçta bir Web uygulamasý ile bunu kullanýcý tarafýna düzgün þekilde yansýtmaktýr. 
+

@@ -1,0 +1,31 @@
+﻿@model WA.OdaSicakligiOlcme.Models.Cihazlar
+
+@{
+    ViewBag.Title = "DETAY";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>DETAY</h2>
+<div>
+@using (Html.BeginForm())
+{
+
+    <h4>Cihazlar</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.CihazID);<br />
+            @Html.DisplayNameFor(model => model.Adi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CihazID);<br />
+            @Html.DisplayFor(model => model.Adi)
+        </dd>
+
+    </dl>}
+</div>
+<p>
+    @Html.ActionLink("Düzenle", "Edit", new { id = Model.CihazID }) |
+    @Html.ActionLink("Geri Dön", "Index")
+</p>

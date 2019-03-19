@@ -1,0 +1,28 @@
+﻿@section Scripts{
+    <script type="text/javascript">$(function () { setInterval(function () { $('#AutoRefresh').load('RequestApprovals/Sicaklik'); }, 1000); });</script>
+
+    }
+@{
+    ViewBag.Title = "Sicaklik";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h3>Ölçümler</h3>
+<div id="AutoRefresh"> </div>
+<meta http-equiv="refresh" content="5" />
+
+<br />
+
+    <h4>
+        NEM : @ViewBag.Nem %
+        <br />
+
+        SICAKLIK : @ViewBag.Sicaklik Celcius
+    </h4>
+
+<div>
+    @Html.ActionLink("Geri Dön", "Index")
+</div>
+
+
+
