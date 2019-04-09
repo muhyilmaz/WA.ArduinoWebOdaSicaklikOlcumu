@@ -1,8 +1,9 @@
-...Proje tanıtımı: Arduino ile ölçülen sıcaklığı web sayfasında gösterme.
+...Proje tanÄ±tÄ±mÄ±: Arduino ile Ã¶lÃ§Ã¼len sÄ±caklÄ±ÄŸÄ± web sayfasÄ±nda gÃ¶sterme.
 
-...Açıklama: 
+...AÃ§Ä±klama: 
 
-	Projenin amacı server odasında ki sıcaklığı web de kullanıcı tarafına aktarmaktır. 
-Birçok defa odanın soğutucularının durması ile odadaki sıcaklık yükselmiş ve sunucular çalışmayı durdurmuştur.
-Bu amaçla arduino ile sıcaklık sensörü vasıtasıyla sıcaklık ölçmek ve belirlenen IP adresine XML formatında yazılarak sonuçta bir Web uygulaması ile bunu kullanıcı tarafına düzgün şekilde yansıtmaktır. 
+	Projenin amacÄ± server odasÄ±nda ki sÄ±caklÄ±ÄŸÄ± web de kullanÄ±cÄ± tarafÄ±na aktarmaktÄ±r. 
+BirÃ§ok defa odanÄ±n soÄŸutucularÄ±nÄ±n durmasÄ± ile odadaki sÄ±caklÄ±k yÃ¼kselmiÅŸ ve sunucular Ã§alÄ±ÅŸmayÄ± durdurmuÅŸtur.
+Bu amaÃ§la arduino ile sÄ±caklÄ±k sensÃ¶rÃ¼ vasÄ±tasÄ±yla sÄ±caklÄ±k Ã¶lÃ§mek ve belirlenen IP adresine XML formatÄ±nda yazÄ±larak 
+sonuÃ§ta bir Web uygulamasÄ± ile bunu kullanÄ±cÄ± tarafÄ±na dÃ¼zgÃ¼n ÅŸekilde yansÄ±tmaktÄ±r. 
 
